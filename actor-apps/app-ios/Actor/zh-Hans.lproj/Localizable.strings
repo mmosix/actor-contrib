@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  ActorEnterprise
+
+  Created by Steve Kite on 15.10.15.
+  Copyright © 2015 Steve Kite. All rights reserved.
+*/
+
+"AuthEmailTitle" = "Your Email";
+
+"AuthEmailHint" = "Please, confirm your corporate email address and press next";
+
+"AuthEmailFieldHint" = "Your corporate email adress";
+
+
+"AuthEmailCodeFieldHint" = "Activation Code";
+
+"AuthEmailCodeHint" = "We sent activation code to your email.";

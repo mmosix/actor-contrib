@@ -1,0 +1,21 @@
+fastlane_version "1.33.1"
+default_platform :ios
+opt_out_usage
+
+platform :ios do
+
+  before_all do
+    cocoapods
+  end
+
+  desc "Building AppStore app"
+  lane :release do
+    # sigh
+    ENV["ACTOR_RELEASE"] = "1"
+    ipa(
+      scheme: "Actor",
+      ipa: "Actor.ipa",
+      destination: "build"
+    )
+  end
+end

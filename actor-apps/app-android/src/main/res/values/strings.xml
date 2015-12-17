@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Actor</string>
+    <string name="auth_email_why">WHY WE NEED YOUR WORK EMAIL?</string>
+    <string name="auth_email_why_description">We use work email for authentication so we can add your colleagues to your contacts list and add you instantly to work groups</string>
+    <string name="auth_email_hint">Please enter your work email.</string>
+    <string name="auth_code_title">Enter activation code</string>
+    <string name="auth_code_hint">Activation code</string>
+
+</resources>

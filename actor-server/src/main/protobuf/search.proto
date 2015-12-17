@@ -1,0 +1,29 @@
+syntax = "proto2";
+
+package im.actor.server;
+
+option (scalapb.options) = {
+import: "im.actor.server.api.TypeMappers._"
+import: "scala.collection.JavaConversions._"
+};
+
+import "scalapb/scalapb.proto";
+
+message IndexerCommands {
+    message Index {
+        option (scalapb.message).extends = "im.actor.server.search.IndexerCommand";
+
+        optional int64 from_ts = 1;
+    }
+
+    message IndexAck {}
+}
+
+message IndexerEvents {
+    message LastMessageUpdated {
+        option (scalapb.message).extends = "im.actor.server.search.IndexerEvent";
+
+        required int64 date = 1;
+        required int64 random_id = 2;
+    }
+}

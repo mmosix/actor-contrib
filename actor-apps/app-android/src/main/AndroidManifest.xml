@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="im.actor.enterprise">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name="im.actor.enterprise.MessengerApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppToolbarTheme">
+        <activity android:name="im.actor.enterprise.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBmV9DfL3JsYo1GdLyCCJLjWx3LWr6duCA" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ce660b7ca79e52417a0cf34681913cb71520098f" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

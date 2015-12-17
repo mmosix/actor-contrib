@@ -1,0 +1,17 @@
+Podfile.lock
+actor-apps/app-ios/ActorEnterprise.xcodeproj/project.xcworkspace/xcuserdata
+actor-apps/app-ios/ActorEnterprise.xcodeproj/xcuserdata
+actor-apps/app-ios/Pods
+actor-apps/app-ios/ActorEnterprise.xcworkspace/xcuserdata
+Actor.iml
+local.properties
+*.iml
+actor-apps/app-android/.gradle
+actor-apps/app-android/.idea
+actor-apps/app-android/build
+actor-apps/app-ios/Actor.xcodeproj/project.xcworkspace/xcuserdata
+actor-apps/app-ios/Actor.xcworkspace/xcuserdata
+actor-apps/app-ios/Actor.xcodeproj/xcuserdata/ex3ndr.xcuserdatad
+actor-apps/app-ios/Actor.xcworkspace
+actor-apps/app-desktop/build
+target

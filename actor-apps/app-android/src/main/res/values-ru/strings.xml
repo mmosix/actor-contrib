@@ -1,0 +1,8 @@
+<resources>
+    <string name="auth_email_why">ЗАЧЕМ НАМ НЕОБХОДИМA\nВАШA РАБОЧАЯ ПОЧТА?</string>
+    <string name="auth_email_why_description">Мы используем рабочую почту для входа поскольку так мы сможем добавить ваших коллег в ваш список контактов и сразу же добавтить Вас в рабочие чаты</string>
+    <string name="auth_email_hint">Пожалуйста, введите адресс вашей рабочей электронной почты</string>
+    <string name="auth_code_title">Введите код активации</string>
+    <string name="auth_code_hint">Код активации</string>
+
+</resources>

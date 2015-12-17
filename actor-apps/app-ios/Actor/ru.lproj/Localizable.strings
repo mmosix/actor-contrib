@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  ActorEnterprise
+
+  Created by Steve Kite on 15.10.15.
+  Copyright © 2015 Steve Kite. All rights reserved.
+*/
+
+"AuthEmailTitle" = "Ваша почта";
+
+"AuthEmailHint" = "Пожалуйста, введите свою рабочую почту и нажмите далее";
+
+"AuthEmailFieldHint" = "Ваша рабочая почта";
+
+
+"AuthEmailCodeFieldHint" = "Код активации";
+
+"AuthEmailCodeHint" = "Мы отправили вам код активации на почту.";
+
+"ContactsActionInvite" = "Пригласить в Актор";
+
+"ContactsActionAdd" = "Добавить человека";
