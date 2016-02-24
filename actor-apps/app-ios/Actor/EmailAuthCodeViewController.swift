@@ -137,15 +137,15 @@ class EmailAuthCodeViewController: AAAuthViewController {
             
             let state = UInt(Actor.getAuthState().ordinal())
             
-            if state == ACAuthState.LOGGED_IN.rawValue {
+            if state == ACAuthState.LOGGED_IN() {
                 
                 // If logged in state: end authentication
                 self.onAuthenticated()
-            } else if state == ACAuthState.SIGN_UP.rawValue {
+            } else if state == ACAuthState.SIGN_UP() {
                 
                 // Is signup go to signup controller
                 self.navigateNext(AAAuthRegisterViewController(), removeCurrent: true)
-            } else if state != ACAuthState.CODE_VALIDATION_PHONE.rawValue {
+            } else if state != ACAuthState.CODE_VALIDATION_PHONE() {
                 
                 // If state not for the current state: start from scratch
                 self.navigateBack()
